@@ -6,7 +6,7 @@ public class VerificacaoDeMaioridade {
 
             // Solicitar a idade da pessoa
             System.out.println("Digite a sua idade:");
-            int idade = scanner.nextInt();
+            double idade = scanner.nextInt();
 
             // Verificar se a pessoa é maior de idade
             if (idade >= 18) {
